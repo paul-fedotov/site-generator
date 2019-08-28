@@ -1,3 +1,22 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+
+# testing
+/coverage
+
+# production
+/build
+/dist
+/.next
+
+# misc
+.DS_Store
+.env
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
 # Created by https://www.gitignore.io/api/node,webstorm,phpstorm,jetbrains
 # Edit at https://www.gitignore.io/?templates=node,webstorm,phpstorm,jetbrains
