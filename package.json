@@ -1,0 +1,25 @@
+{
+  "name": "site-generator",
+  "version": "0.0.1",
+  "description": "Applications for generating sites from a set of components. Uses React, Redux, Next.js, MongoDB, Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paul-fedotov/site-generator.git"
+  },
+  "keywords": [
+    "React",
+    "Redux",
+    "Next.js",
+    "MongoDB"
+  ],
+  "author": "Paul Fedotov",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/paul-fedotov/site-generator/issues"
+  },
+  "homepage": "https://github.com/paul-fedotov/site-generator#readme"
+}
