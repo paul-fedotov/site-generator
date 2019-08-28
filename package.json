@@ -4,9 +4,9 @@
   "description": "Applications for generating sites from a set of components. Uses React, Redux, Next.js, MongoDB, Node.js.",
   "main": "index.js",
   "scripts": {
-    "dev": "cd ./src && PORT=3030 node server.js",
-    "build": "next build",
-    "start": "cd ./src && NODE_ENV=production PORT=3030 node server.js"
+    "dev": "cd ./src && PORT=3030 BASE_URL=/lp node server.js",
+    "build": "next build ./src",
+    "start": "cd ./src && NODE_ENV=production PORT=3030 BASE_URL=/lp node server.js"
   },
   "dependencies": {
     "express": "^4.17.1",
