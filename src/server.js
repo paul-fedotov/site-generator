@@ -5,10 +5,13 @@ const port = parseInt(process.env.PORT, 10) || 3000;
 const dev = process.env.NODE_ENV !== 'production';
 const app = next({ dev });
 const routes = require('./routes');
+const axios = require('axios');
 
-const handle = routes.getRequestHandler(app, ({ req, res, route, query }) => {
+const handleCallback = async ({ req, res, route, query }) => {
   app.renderToHTML(req, res, route, query);
-});
+};
+
+const handle = routes.getRequestHandler(app, handleCallback);
 
 app.prepare().then(() => {
   const server = express();
