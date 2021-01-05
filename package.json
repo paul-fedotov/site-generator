@@ -9,7 +9,7 @@
     "start": "cd ./src && NODE_ENV=production PORT=3030 BASE_URL=/lp node server.js"
   },
   "dependencies": {
-    "axios": "^0.19.0",
+    "axios": "^0.21.1",
     "express": "^4.17.1",
     "next": "^9.0.5",
     "next-routes": "^1.4.2",
